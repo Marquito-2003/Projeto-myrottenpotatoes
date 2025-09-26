@@ -1,0 +1,7 @@
+/* Adicione esta regra ao seu ficheiro de folha de estilo principal */
+/* para destacar a coluna que está a ser ordenada. */
+
+.hilite {
+  background-color: yellow;
+}
+
