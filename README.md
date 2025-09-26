@@ -41,19 +41,28 @@ Certifique-se de que tem o seguinte software instalado na sua máquina:
   gem install rails
 
 # Clone o repositório
-git clone https://github.com/Marquito2003/Projeto-myrottenpotatoes.git
+  ```bash
+  git clone https://github.com/Marquito2003/Projeto-myrottenpotatoes.git
+
 
 # Acesse a pasta do projeto
-cd Projeto-myrottenpotatoes
+  ```bash
+  cd Projeto-myrottenpotatoes
+
 
 # Instale as dependências
-bundle install
+  ```bash
+  bundle install
 
 # Crie e prepare a base de dados
-rails db:migrate
+  ```bash
+  rails db:migrate
 
 # (Opcional) Abra o console Rails e insira alguns filmes de exemplo
-rails c
-Movie.create(title: 'Star Wars', rating: 'PG', release_date: '1977-05-25')
-Movie.create(title: 'The Godfather', rating: 'R', release_date: '1972-03-24')
-exit
+  ```bash
+  rails c
+  Movie.create(title: 'Star Wars', rating: 'PG', release_date: '1977-05-25')
+  Movie.create(title: 'The Godfather', rating: 'R', release_date: '1972-03-24')
+  exit
+
+
